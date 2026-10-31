@@ -1,0 +1,27 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# MAVLink / lab runtime artifacts
+*.tlog
+*.tlog.raw
+mav.parm
+*.bin
+*.apj
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
